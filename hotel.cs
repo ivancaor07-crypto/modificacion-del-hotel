@@ -147,7 +147,7 @@ class Program
         Console.WriteLine($"* Se reservó la habitación 304 para Martin Lopez (5 noches) Costo total: ${costo304:N0}");
         Console.WriteLine();
 
-        Console.WriteLine("=== ESTADO FINAL DE LAS HABITACIONES (Usando Resumen) ===");
+        Console.WriteLine("=== ESTADO FINAL DE LAS HABITACIONES ===");
         HabitacionHotel[] listaHabitaciones = { hab101, hab202, hab303, hab304 };
         foreach (var hab in listaHabitaciones)
         {
